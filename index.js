@@ -11,7 +11,7 @@ for(let button of buttons) {
             circle.classList.remove('disable');
         }
         fillCircles();
-    })
+    });
 }
 
 function generateColor() {
@@ -49,10 +49,6 @@ function startGame(winner, colorFields) {
             } else {
                 e.target.classList.add('disable');
             }
-
-        })
+        });
     }
 };
-
-
-
